@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Swaadish"
         tools:targetApi="31">
         <activity
+            android:name=".payment"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".annapurna"
             android:exported="false">
             <meta-data

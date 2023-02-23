@@ -63,6 +63,7 @@
                     android:layout_marginEnd="9dp"
                     android:layout_marginBottom="63dp"
                     android:text="Annapurna Tiffin Service"
+                    android:textColor="@color/black"
 
                     android:textSize="25dp">
 
@@ -119,6 +120,7 @@
                     android:layout_marginEnd="7dp"
                     android:layout_marginBottom="70dp"
                     android:text="Spice Box"
+                    android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textSize="25dp">
 
@@ -175,6 +177,7 @@
                 android:layout_height="72dp"
                 android:layout_alignParentRight="true"
                 android:text="Yummy food service"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="25dp">
 
@@ -218,6 +221,7 @@
                     android:layout_height="66dp"
                     android:layout_alignParentRight="true"
                     android:text="Mumbai Dabbawala"
+                    android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textSize="25dp">
 
@@ -266,6 +270,7 @@
                     android:layout_height="66dp"
                     android:layout_alignParentRight="true"
                     android:text="Happy Grub"
+                    android:textColor="@color/black"
                     android:textAlignment="center"
                     android:textSize="25dp">
 
