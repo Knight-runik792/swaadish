@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#045F5F"
+    android:background="@drawable/login_gradient"
 
     tools:context=".MainActivity">
 
@@ -15,7 +15,7 @@
         android:layout_height="60dp"
         android:text="Swaadish"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="15pt"
 
         android:textStyle="bold"
@@ -27,21 +27,33 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="289dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@null"
+        android:background="@drawable/login_opt_buttons"
         android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="289dp"
-        android:layout_height="51dp"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
         android:layout_marginTop="52dp"
-
+        android:backgroundTint="@null"
+        android:background="@drawable/login_opt_buttons"
         android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,11 +61,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="428dp"
-        android:layout_height="26dp"
+        android:layout_width="414dp"
+        android:layout_height="42dp"
         android:text="food at your doorstep"
         android:textAlignment="center"
-        android:textSize="6pt"
+        android:textColor="#000000"
+        android:textSize="11pt"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.235"
@@ -62,15 +75,20 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="278dp"
-        android:layout_height="56dp"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@null"
+        android:background="@drawable/login_opt_buttons"
         android:text="Continue as Guest"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.275" />
+        app:layout_constraintVertical_bias="0.196" />
 
     <ImageView
         android:id="@+id/imageView"
