@@ -17,13 +17,8 @@
         android:layout_height="wrap_content"
       android:text="Welcome! Swaadish Dabba"
       android:textSize="36sp"
-      ></TextView>
+      android:fontFamily="@font"
     
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-    </RelativeLayout>
 
     
 
