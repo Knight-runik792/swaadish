@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".annapurna" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="#ffccff"
+            android:padding="0dp">
+
+
+            <ImageView
+                android:layout_width="74dp"
+                android:layout_height="49dp"
+                android:src="@drawable/_97c34021853531fdbd946ba380a5dc8">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="148dp"
+
+                android:layout_marginEnd="102dp"
+                android:layout_marginRight="125dp"
+                android:text="Swaadish"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:background="#ccffe5">
+
+
+            <ImageView
+                android:layout_width="164dp"
+                android:layout_height="136dp"
+
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="131dp"
+                android:src="@drawable/bg_annapurna">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="241dp"
+                android:layout_height="127dp"
+                android:layout_alignParentRight="true"
+                android:text="Annapurna Tiffin Service"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+
+                android:textSize="35dp">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#ccffe5"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quick Information"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="184dp"
+                android:layout_height="36dp"
+
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:text="Year Of Establishment"
+                android:textSize="15dp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:text="2015 "
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="38dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="18dp"
+                android:text="Timing"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="75dp"
+                android:textColor="@color/black"
+                android:text="Mon - Sat 8:00 am - 9:00 pm">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="95dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="18dp"
+                android:text="Sun closed - Closed        ">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Service"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="130dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="150dp"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:text="Home Delivery ">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="47dp"
+                android:layout_height="37dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="169dp"
+                android:src="@drawable/house"
+
+                >
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:padding="25dp"
+            android:background="#ccffe5">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="#afeeee">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Half Tiffin "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#ffddee">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/black"
+                    android:text="One sabji, 3 chapati and dal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/halfprice"
+                    android:text="Price : Rs 80"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp">
+
+
+                </TextView>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/half_tiffin"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="17dp"
+                    android:text="Order">
+
+                </Button>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#ccffe5"
+            android:padding="25dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="92dp"
+                android:background="#afeeee">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffddee"
+                    android:text="Full Tiffin "
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/black"
+                    android:text="One sabji, 3 chapati, dal and rice">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="65dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/fullprice"
+                    android:text="Price : Rs 110">
+
+
+                </TextView>
+
+
+                <Button
+                    android:id="@+id/full_tiffin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Order">
+
+                </Button>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
