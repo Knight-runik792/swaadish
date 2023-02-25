@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_gradient"
-    tools:context="com.example.swaadish.login_01"
-    android:orientation="vertical">
+    android:background="@color/white"
+    tools:context="com.example.swaadish.login_01">
 
 
     <TextView
@@ -14,35 +13,30 @@
         android:layout_width="280dp"
         android:layout_height="46dp"
         android:layout_margin="@dimen/cardview_compat_inset_shadow"
-
         android:baselineAligned="false"
+
         android:text="Welcome to Swaadish"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="223dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="297dp"
-        android:layout_height="61dp"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:textColor="#ffeeee"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:fontFamily="sans-serif-black"
-        android:layout_marginTop="56dp"
-        android:background="@drawable/login_opt_buttons"
+
+        android:layout_marginTop="104dp"
 
         android:text="Login as Vendor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -54,18 +48,13 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="160dp"
 
-        android:background="@drawable/login_opt_buttons"
         android:text="Login as customer"
-        android:textColor="#ffeeee"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.345" />
 
     <ImageView
         android:id="@+id/imageView3"

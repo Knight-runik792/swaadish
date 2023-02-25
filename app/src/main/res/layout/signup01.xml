@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_gradient"
-    tools:context=".signup_01"
-    >
+    android:background="@color/white"
+    tools:context=".signup_01">
 
     <TextView
         android:id="@+id/textView4"
@@ -24,36 +23,25 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="350dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="76dp"
-        android:background="@drawable/login_opt_buttons"
+        android:layout_width="332dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="88dp"
         android:text="sign up as vendor"
-        android:textColor="#ffeeee"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="350dp"
-        android:layout_height="75dp"
-        android:background="@drawable/login_opt_buttons"
+        android:layout_width="337dp"
+        android:layout_height="53dp"
         android:text="sign up as customer"
-        android:textColor="#ffeeee"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.138" />
 
     <ImageView
         android:id="@+id/imageView2"
