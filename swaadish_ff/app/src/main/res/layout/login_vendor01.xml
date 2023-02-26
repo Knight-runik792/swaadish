@@ -47,6 +47,9 @@
         android:layout_height="44dp"
         android:background="@drawable/login_opt_buttons"
         android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -101,7 +101,9 @@
         android:layout_height="33dp"
         android:background="@drawable/login_opt_buttons"
         android:text="signup"
-        android:textColorHint="#cc7722"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
