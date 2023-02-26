@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".payment">
+    tools:context=".payment"
+    android:background="@drawable/sunny_morning_gradient">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/payment_toolbar"
@@ -58,34 +59,43 @@
         android:text="Choose Mode of Payment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.329"
+        app:layout_constraintVertical_bias="0.275"
         tools:layout_editor_absoluteX="16dp">
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CHOOSE MODE OF PAYMENT"
             android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:text="CHOOSE MODE OF PAYMENT"
             android:textAlignment="center"
             android:textStyle="bold">
+
 
         </TextView>
 
         <Button
             android:id="@+id/cash"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_margin="25dp"
-            android:text="Cash on Delivery" />
+            android:background="@drawable/opt_buttons"
+            android:text="Cash on Delivery"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/card"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="314dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
-            android:text="Card" />
+            android:background="@drawable/opt_buttons"
+            android:text="Card"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
