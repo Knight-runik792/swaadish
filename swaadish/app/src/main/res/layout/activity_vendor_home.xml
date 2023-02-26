@@ -13,6 +13,22 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content" android:layout_margin="10dp"
       android:orientation="vertical">
+<<<<<<< HEAD:app/src/main/res/layout/activity_vendor_home.xml
+=======
+      
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:text="Welcome! Swaadish Dabba"
+      android:textSize="36sp"
+      ></TextView>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+>>>>>>> 0a8446d179fc914baff0a6c27947372cc35e3fb8:swaadish/app/src/main/res/layout/activity_vendor_home.xml
 
 
 
